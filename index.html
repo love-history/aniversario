@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'>
+    <link rel='icon' type='image/' href='' />
+    <title></title>
+    <style>
+        /* funciones de reset */
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            background: linear-gradient(to bottom, #642b73, #c6426e);
+        }
+
+        /* posicionamiento */
+
+        header{
+            height: 15%;
+            display: flex;
+            justify-content: center;
+        }
+        main {
+            margin-top: 10px;
+            height: 85%;
+        }
+
+        .border{
+            border-radius: 15px;
+        }
+
+        .sombra{
+            box-shadow: #ebf0d6 2px 2px  3px;
+        }
+
+        .espacio{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="container-fluid s12">
+
+            <div class="container">
+              <a href="#" class=" center"> <h4> <strong>Gracias por otro mes más a tu lado mi amor</strong></h4></a>
+            </div>
+
+    </header>
+    <main class="container">
+        <div class="row" style=" height: 50%;margin: 0">
+            <div class="col l3 s12" style=" height: 100%;">
+                <div class="card sombra">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="./img/love.png" width="50px" alt="" class="activator"/>
+                    </div>
+                    <div class="card-action sombra">
+                        <a href="#">Esta canción es para TI... </a>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title activator">Te Amo Amor<i class="material-icons right">close</i></span>
+                        <p>Son tantas noches en que yo me la paso, pensando en donde estas y si regresaras, pero sabes que yo aqui estoy para ti, donde quiera que estes esta canción es para ti</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 s12" style="height: 110%;">
+                <div class="carousel border espacio">
+                    <a class="carousel-item"  href="#two!"><img    src="./img/hermosa.jpeg" class="border"></a>
+                    <a class="carousel-item"  href="#three!"><img    src="./img/nuestrobb.jpeg" class="border"></a>
+                    <a class="carousel-item"  href="#four!"><img    src="./img/ojitos.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/lentesitos.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/bb.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/cristhian.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/lentes.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/nosotros.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/teamo.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/nuestroprimerdia.png" class="border"></a>
+                    <a class="carousel-item"  href="#five!"><img    src="./img/mivida.png" class="border"></a>
+                  </div>
+            </div>
+            <div class="col l3 s12" style=" height: 100%;">
+                <div class="card darken-1">
+                    <div class="card-content ">
+                        <span class="card-title"></span>
+                        <p>Fuiste, eres y siempre serás, mi mas bonita casualidad mi amor Te amo demasiado mi vida mi Lizbeth</p>
+                    </div>
+                </div>
+                <div class="card darken-1">
+                    <div class="card-content ">
+                        <span class="card-title"></span>
+                        <p>Anoche miré al cielo y empecé a dar a cada estrella una razón por la que te amo tanto,  y pues tengo que confesar que me faltaron estrellas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style=" height: 50%;margin:0">
+            <div class="col l6 s12" style=" height: 100%;">
+                <div>
+                    <img src="./img/frasebb.png" alt="" width="100%">
+                </div>
+            </div>
+            <div class="section">
+                <h4 style="color: #fff"><strong>Gracias por hacerme tan feliz</strong></h4>
+            </div>
+            <div class="divider"></div>
+            <div class="col l6 s12" style=" height: 100%;">
+                <img src="./img/carta-de-amor-para-mi-novio.png" alt="" width="100%">
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script>
+            document.addEventListener('DOMContentLoaded', () =>  {
+            var elementosCarousel = document.querySelectorAll('.carousel');
+            M.Carousel.init(elementosCarousel, {
+                duration: 150
+            })
+        });
+     </script> 
+</body>
+</html>
+
+
+
